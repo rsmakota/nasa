@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0098d7a5-d648-4aa3-ac29-453476e345d4" name="Default" comment="" />
+    <list default="true" id="0098d7a5-d648-4aa3-ac29-453476e345d4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/NasaBundle/Entity/NearEarthObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NasaMeteor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NasaMeteor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Controller/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Controller/HazardousController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Entity/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Entity/EntityInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Entity/EntityInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Entity/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Factory/ResponseFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Factory/ResponseFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Factory/ResponseFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Factory/ResponseFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Filter/FilterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Filter/FilterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Filter/PostFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Filter/PostFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/ORM/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/ORM/NearEarthObjectRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Service/CategoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Service/NearEarthObjectService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Service/EntityServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NasaBundle/Service/EntityServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Service/PostService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Validate/ArrayValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NasaBundle/Validate/ArrayValidatorInterface.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,75 +35,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="595">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <file leaf-file-name="HazardousController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NasaBundle/Controller/HazardousController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="9">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#7#66#0#PHP" expanded="true" />
+                <element signature="e#41#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NasaBundle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NasaBundle/NasaBundle.php">
+      <file leaf-file-name="PostFilter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NasaBundle/Filter/PostFilter.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="NearEarthObject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NasaBundle/Entity/NearEarthObject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="2176">
+              <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+              <folding>
+                <element signature="e#6#93#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NasaBundle/Controller/PostController.php">
+      <file leaf-file-name="NearEarthObjectService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NasaBundle/Service/NearEarthObjectService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="567">
+              <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
               <folding>
-                <element signature="e#41#68#0#PHP" expanded="true" />
+                <element signature="e#125#163#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityServiceInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NasaBundle/Service/EntityServiceInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding>
+                <element signature="e#125#163#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NearEarthObjectRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NasaBundle/ORM/NearEarthObjectRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#34#72#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,10 +137,20 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Blog</find>
+      <find>rsmakota@svitla.com</find>
+      <find>Svitla LTD</find>
     </findStrings>
+    <replaceStrings>
+      <replace>rsmakota@gmail.com</replace>
+      <replace>INNOVECS</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/config</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,8 +158,19 @@
         <option value="$PROJECT_DIR$/src/NasaBundle/BlogBundle.php" />
         <option value="$PROJECT_DIR$/src/NasaBundle/NasaBundle.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Controller/PostController.php" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Entity/Category.php" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Entity/NearEarthObjects.php" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/ORM/PostRepository.php" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/ORM/NearEarthObjectRepository.php" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Service/CategoryService.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Service/EntityServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Service/NearEarthObjectService.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Entity/NearEarthObject.php" />
+        <option value="$PROJECT_DIR$/src/NasaBundle/Controller/HazardousController.php" />
       </list>
     </option>
   </component>
@@ -177,6 +242,11 @@
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/eightpoints/guzzle-bundle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -184,6 +254,7 @@
     <option name="width" value="1922" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -229,6 +300,34 @@
             <path>
               <item name="NasaMeteor" type="b2602c69:ProjectViewProjectNode" />
               <item name="NasaMeteor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NasaBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NasaMeteor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaMeteor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NasaBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NasaMeteor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaMeteor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NasaBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NasaMeteor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaMeteor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NasaBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NasaMeteor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaMeteor" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -267,12 +366,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526495196249</updated>
       <workItem from="1526495197401" duration="308000" />
-      <workItem from="1526498523579" duration="794000" />
+      <workItem from="1526498523579" duration="6183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1102000" />
+    <option name="totallyTimeSpent" value="6491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1922" height="1055" extended-state="0" />
@@ -280,13 +379,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827735" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32827735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -319,20 +418,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Controller/PostController.php">
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Controller/HazardousController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#41#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Controller/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <element signature="e#41#68#0#PHP" expanded="true" />
           </folding>
@@ -363,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -382,8 +464,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/ORM/NearEarthObjectRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#34#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Filter/PostFilter.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Service/EntityServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="e#125#163#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Validate/ArrayValidator.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Service/NearEarthObjectService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+          <folding>
+            <element signature="e#125#163#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Entity/NearEarthObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NasaBundle/Controller/HazardousController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#41#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,11 +1,10 @@
 <?php
 /**
- * @author    Rodion Smakota <rsmakota@svitla.com>
- * @copyright 2018 Svitla LTD
+ * @author    Rodion Smakota <rsmakota@gmail.com>
+ * @copyright 2018 INNOVECS
  */
 
 namespace NasaBundle\Service;
-
 
 use NasaBundle\Entity\EntityInterface;
 use NasaBundle\Filter\FilterInterface;
@@ -17,25 +16,27 @@ interface EntityServiceInterface
      *
      * @return EntityInterface|null
      */
-    public function find($id);
+    public function find($id): ?EntityInterface;
 
     public function findAll(FilterInterface $filter);
     /**
      * @param array $data
+     *
      * @return EntityInterface
      * @throws \Exception
      */
-    public function create($data);
+    public function create(array $data): EntityInterface;
     /**
      * @param integer $id
      * @param array $data
+     *
      * @return EntityInterface
      * @throws \Exception
      */
-    public function update($id, $data);
+    public function update(int $id, array $data): EntityInterface;
     /**
      * @param integer $id
      * @throws \Exception
      */
-    public function delete($id);
+    public function delete(int $id): void;
 }
